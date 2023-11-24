@@ -1,4 +1,7 @@
 # Microsite for Black Friday 2023
+
+Get 30% OFF until 27th using [`BLACKFRIDAY23`](https://buy.stripe.com/7sIdThdwq4Og46I002?prefilled_promo_code=BLACKFRIDAY23) on checkout on all Needle Engine licenses 😊
+
 ## Made with Blender and Needle Add-On
 
 The entire project has been made in Blender in a few hours, including the HTML parts.  
