@@ -1,0 +1,1 @@
+{    "FixCamLook": {        "amount": {            "type": "float",            "value": 1        },        "onEnable": {            "type": "fn"        },        "update": {            "type": "fn"        }    }}

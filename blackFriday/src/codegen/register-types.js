@@ -1,0 +1,1 @@
+// This is an auto-generated file. Do not edit!import { TypeStore } from "@needle-tools/engine";import { FixCamLook } from "../scripts/FixCamLook.ts";TypeStore.add("FixCamLook", FixCamLook);// Made with 🌵 Needle// https://needle.tools

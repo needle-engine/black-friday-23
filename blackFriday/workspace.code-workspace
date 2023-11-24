@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+		{
+			"name" : "Needle Engine",
+			"path": "./node_modules/@needle-tools/engine",
+		},
+		{
+			"name" : "Needle Compiler",
+			"path": "./node_modules/@needle-tools/needle-component-compiler",
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": true,
+		
+		"files.exclude": {
+			"package-lock.json": true,
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			"**/*.meta": true
+		}
+	}
+}

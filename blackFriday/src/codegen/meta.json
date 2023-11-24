@@ -1,0 +1,11 @@
+{
+    "gzip": true,
+    "useRapier": false,
+    "license": "pro",
+    "generator": "Needle Engine for Blender 0.32.11",
+    "meta": {
+        "title": "blackFriday",
+        "description": "Built with Needle Engine for Blender",
+        "image": "include/poster.webp"
+    }
+}

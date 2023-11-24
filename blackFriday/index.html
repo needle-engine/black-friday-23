@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  
+  <title>BLACK FRIDAY 2023 – Needle Engine</title>
+  <meta property="og:title" content="Get 30% off on Needle licenses" />
+  <meta property="og:description" content="Use the code BLACKFRIDAY23 on checkout." />
+  <meta property="og:image" content="https://engine.needle.tools/projects/black-friday-23/thumbnail.webp" />
+
+  <meta name="twitter:card" content="player">
+  <meta name="twitter:player" content="https://engine.needle.tools/projects/black-friday-23/">
+  <meta name="twitter:player:width" content="480">
+  <meta name="twitter:player:height" content="480">
+  <meta name="twitter:site" content="@needletools">
+  <meta name="twitter:image" content="https://engine.needle.tools/projects/black-friday-23/thumbnail.webp">
+
+  <meta name="robots" content="index,follow">
+  <meta name="url" content="http://needle.tools">
+
+  <link rel="stylesheet" href="./src/styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+  
+  <script type="module" src="./src/main.ts"></script>
+  <style type="text/css">
+    body {
+      font-family: 'Jost', sans-serif;
+      font-weight: 500;
+      overscroll-behavior: none;
+    }
+    .message {
+      position: fixed;
+      bottom: 40px;
+      left: 0;
+      width: 100%;
+      background: none;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      z-index: 999;
+      animation: slide-up 2s cubic-bezier(0.3, 0.2, 0.2, 1.4);
+      font-size: 1.4em;
+    }
+    .message a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .message span {
+      animation: blinker 2s linear infinite;
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0.5;
+      }
+    }
+
+    @keyframes slide-up {
+      0% {
+        bottom: -100px;
+      }
+
+      50% {
+        bottom: -100px;
+      }
+      100% {
+        bottom: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <span>Use <a href="https://buy.stripe.com/7sIdThdwq4Og46I002?prefilled_promo_code=BLACKFRIDAY23">BLACKFRIDAY23</a> to get 30% off <br/>on all <a href="https://needle.tools/pricing">Needle Engine plans</a>.</span>
+  </div>
+  <needle-engine src="assets/scene.glb"></needle-engine>
+</body>
+</html>
